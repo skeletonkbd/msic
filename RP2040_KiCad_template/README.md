@@ -43,3 +43,20 @@ KiCadで<code>設定</code>から<code>パスを設定</code>を開きます。
 | 0603WAF1001T5E   | UNI-ROYAL (Uniroyal Elec)     | 抵抗 1kΩ            | C21190   | 2    | 👍️          |
 | 0603WAF5101T5E   | UNI-ROYAL (Uniroyal Elec)     | 抵抗 5.1kΩ          | C23186   | 2    | 👍️          |
 | 0603WAF270JT5E   | UNI-ROYAL (Uniroyal Elec)     | 抵抗 27Ω     | C25190   | 2    |             |
+
+## 参考資料
+
+### RP2040を使用したハードウェア設計
+https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040-JP.pdf
+
+「2.1.2. バイパスコンデンサー」のサンプル回路を参考に、コンデンサーの個数を決定しています。配置については回路図内に注記しています。
+
+### Hardware design for the RP2040
+https://github.com/calliah333/RP2040-designguide/tree/main
+
+主要なパーツの選定の参考にしています。
+
+### Xiao RP2040 回路図
+https://files.seeedstudio.com/wiki/XIAO-RP2040/res/Seeed-Studio-XIAO-RP2040-v1.3.pdf
+
+ResetとBootの2つのスイッチを配置する方式はXiao RP2040の設計を参考にしています。
