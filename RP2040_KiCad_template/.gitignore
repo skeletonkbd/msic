@@ -1,5 +1,5 @@
 # KiCad backup directory
-*backups
+RP2040_KiCad_template-backups
 
 # Auto-saved files (match any file starting with _autosave)
 _autosave*
@@ -9,4 +9,4 @@ _autosave*
 
 # Specific file
 #auto_saved_files#
-jlcpcb
+jlcpcb/
